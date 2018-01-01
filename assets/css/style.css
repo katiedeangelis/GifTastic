@@ -1,12 +1,14 @@
 .item {
-    margin: 50px;
-    width: 200px;
+    margin: 45px;
+    width: 170px;
     position: relative;
     display: inline-block
 }
 
 .item img {
-    width: 100%;
+    display: block;
+    width: 250px;
+    height: 250px;
 }
 
 .item p {
@@ -14,7 +16,7 @@
     color: white;
     text-align: center;
     position: absolute;
-    bottom: 10px;
-    width: 100%;
+    bottom: -20px;
+    width: 250px;
     margin: 0;
 }
