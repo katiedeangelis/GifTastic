@@ -5,12 +5,14 @@ $("#add-gif-button").on("click", function (event) {
     event.preventDefault();
 
     // This line grabs the input from the textbox
-    var newGifButton = $("#create-gif-button").val().trim();
+    var newShow = $("#create-gif-button").val().trim();
 
-    console.log(newGifButton);
+    console.log(newShow);
 
-    // // Adding movie from the textbox to our array
-    // movies.push(movie);
+    // Adding movie from the textbox to our array
+    showButtons.push(newShow);
+
+    console.log (showButtons);
 
     // // Calling renderButtons which handles the processing of our movie array
     // renderButtons();
